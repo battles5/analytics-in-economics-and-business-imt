@@ -6,7 +6,7 @@ This repository contains the Python code and analytical pipeline used for the em
 
 Note that the raw and processed datasets, original LaTeX paper files, and other course materials are **not** included in this repository and must be sourced independently if attempting to replicate the dataset.
 
-> **Disclaimer:** This work represents the final project for the MD2SL Master's course in Analytics in Economics and Business (University of Florence & IMT Lucca). There is no claim to originality or academic value; it is purely a didactic exercise within the context of the course. The analysis code and the LaTeX manuscript were generated with the assistance of Claude Opus 4.6 High and Gemini 3.1 Pro (Preview).
+> **Disclaimer:** This work represents the final project for the MD2SL Master's course in Analytics in Economics and Business (University of Florence & IMT Lucca). There is no claim to originality or academic value; it is purely a didactic exercise within the context of the course.
 
 ## Repository Structure & Code Functionality
 
