@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository contains the Python code and analytical pipeline used for the empirical analysis in the paper *"Course project: The causal effect of R&D expenditure on productivity growth: a double machine learning approach"*. The study applies Double Machine Learning (DML) to cross-country data to estimate the causal impact of research and development on total factor productivity (TFP). 
+This repository contains the Python code and analytical pipeline used for the empirical analysis in the paper *"Course project: The causal effect of R&D expenditure on productivity growth: a double machine learning approach"*. The study applies Double Machine Learning (DML) to cross-country data to estimate the causal impact of research and development on total factor productivity (TFP). The final compiled paper is available as a PDF in the repository (`Peruzzi_Orso_Analytics_Project.pdf`).
 
-Note that the raw and processed datasets, original LaTeX paper files, and other course materials are **not** included in this repository and must be sourced independently if attempting to replicate the dataset.
+Note that the raw and processed datasets, original LaTeX source files, and other course materials are **not** included in this repository and must be sourced independently if attempting to replicate the dataset.
 
 > **Disclaimer:** this work represents the final project for the MD2SL Master's course in Analytics in Economics and Business (University of Florence & IMT Lucca). There is no claim to originality or academic value; it is purely a didactic exercise within the context of the course.
 
