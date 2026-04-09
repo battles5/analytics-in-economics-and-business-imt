@@ -1,0 +1,26 @@
+# Excluded Directories
+data/
+course_material/
+paper/
+paper_template_ref/
+references/
+
+# Scripts to exclude
+verify_bib*.py
+script.py
+
+# Python typical
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.venv/
+
+# Environment / Jupyter
+.env
+.ipynb_checkpoints/
+
+# IDE / Other
+.vscode/
+AUDIT_REPORT.md

@@ -1,0 +1,15 @@
+# Analytics in Economics and Business — Exam Project
+# R&D Expenditure and Productivity Growth: A Double Machine Learning Approach
+
+## Requirements
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+openpyxl>=3.1
+scikit-learn>=1.3
+doubleml>=0.7
+econml>=0.15
+shap>=0.43
+statsmodels>=0.14
+xlrd>=2.0
