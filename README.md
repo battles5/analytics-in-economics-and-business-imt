@@ -1,14 +1,14 @@
-# The Causal Effect of R&D Expenditure on Productivity Growth: A Double Machine Learning Approach
+# The causal effect of R&D expenditure on productivity growth: a double machine learning approach
 
 ## Overview
 
-This repository contains the Python code and analytical pipeline used for the empirical analysis in the paper *"Course project: The causal effect of R&D expenditure on productivity growth: A double machine learning approach"*. The study applies Double Machine Learning (DML) to cross-country data to estimate the causal impact of research and development on total factor productivity (TFP). 
+This repository contains the Python code and analytical pipeline used for the empirical analysis in the paper *"Course project: The causal effect of R&D expenditure on productivity growth: a double machine learning approach"*. The study applies Double Machine Learning (DML) to cross-country data to estimate the causal impact of research and development on total factor productivity (TFP). 
 
 Note that the raw and processed datasets, original LaTeX paper files, and other course materials are **not** included in this repository and must be sourced independently if attempting to replicate the dataset.
 
-> **Disclaimer:** This work represents the final project for the MD2SL Master's course in Analytics in Economics and Business (University of Florence & IMT Lucca). There is no claim to originality or academic value; it is purely a didactic exercise within the context of the course.
+> **Disclaimer:** this work represents the final project for the MD2SL Master's course in Analytics in Economics and Business (University of Florence & IMT Lucca). There is no claim to originality or academic value; it is purely a didactic exercise within the context of the course.
 
-## Repository Structure & Code Functionality
+## Repository structure & code functionality
 
 The analysis is divided into five modular Python scripts found in the `code/` directory:
 
@@ -27,7 +27,7 @@ The analysis is divided into five modular Python scripts found in the `code/` di
 5. **`experimental_extensions.py`**  
    Explores robustness and additional model structures through advanced modeling techniques like Super Learner ensembling, spatial/peer-group lags, Gaussian Mixture Models (Latent Regimes), and Gaussian Process regressions.
 
-## Usage Guide
+## Usage guide
 
 1. Clone the repository and navigate into the folder:
    ```bash
@@ -41,10 +41,10 @@ The analysis is divided into five modular Python scripts found in the `code/` di
    ```
 
 3. Prepare the data:
-   The scripts expect the dataset to be placed correctly relative to the project root. Since `data/` is excluded, you will need to execute the first script (`python code/data_preparation.py`) after obtaining or replacing the source inputs to generate the `final_data.csv`.
+   the scripts expect the dataset to be placed correctly relative to the project root. Since `data/` is excluded, you will need to execute the first script (`python code/data_preparation.py`) after obtaining or replacing the source inputs to generate the `final_data.csv`.
 
 4. Run the analytical pipeline:
-   Execute the remaining scripts sequentially to reproduce the models and visual outputs discussed in the study:
+   execute the remaining scripts sequentially to reproduce the models and visual outputs discussed in the study:
    ```bash
    python code/dml_analysis.py
    python code/causal_forest.py
@@ -52,7 +52,7 @@ The analysis is divided into five modular Python scripts found in the `code/` di
    python code/experimental_extensions.py
    ```
 
-## Included References & Data Sources
+## Included references & data sources
 
 The underlying theoretical frameworks and sources coded in this project include:
 
